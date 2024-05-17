@@ -23,7 +23,7 @@
 - For subdomains such as www.example.com, configure a CNAME record with your DNS provider.
    ```
    # CNAME
-   <username>.github.io or <organisation>.github.io
+   <username>.github.io or <organisation>.github.io or <some-thing-uuid>.pages.github.io
    ```
 
 - Note: For EMU, `<organisation>.github.io` sites are not available. You will need to configure individual CNAME records for each GitHub Pages generated domain, i.e. `custom-domain` > `some-thing-uuid.pages.github.io`.
